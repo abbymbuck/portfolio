@@ -1,0 +1,188 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background-color: #A7A9AC;
+}
+
+header.primary {
+  background-color: #585755;
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.container {
+  width: 80vw;
+  margin: 40px auto;
+}
+
+header.primary h1 {
+  font-size: 3.5em;
+  text-align: center;
+
+}
+
+header.primary h1 a {
+  display: block;
+  height: 125px;
+  width: 884px;
+  position: fixed;
+  left: 40px;
+  text-indent: 100%;
+  white-space: nowrap;
+  margin-top: 40px;
+  opacity:0;
+}
+
+header.primary figure {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+header.primary #nav {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+}
+
+#nav ul li {
+  list-style-type: none;
+  padding: 20px;
+  font-size: 1em;
+}
+
+header.primary #nav a,
+header.primary #nav a:visited {
+  color: #A7A9AC;
+  text-decoration: none;
+  background-color: #005288;
+  border-radius: 6px;
+  padding: 4px 8px;
+  transition: 0.3s;
+}
+
+header.primary #nav a:hover {
+  background: rgba(0, 80, 120, 0.8);
+}
+
+.container {
+  color: #fff;
+  padding-bottom: 20px;
+  font-size: 1.1em;
+}
+
+.container h2 {
+  font-size: 2em;
+  color: #005288;
+}
+
+.container a {
+  color: #606F9E;
+  text-decoration: underline;
+}
+
+#content.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#content .post {
+  width: 25vw;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+  transition: 0.3s;
+}
+
+#content .post:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .5);
+}
+
+#content .post img {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#missions {
+  width: 80vw;
+  margin: 40px auto;
+}
+
+#missions table {
+  color: #fff;
+  border: 1px solid;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.5em;
+}
+
+#missions table caption {
+  font-weight: bold;
+  line-height: 3em;
+}
+
+#missions table tr:nth-child(even) {
+  background-color: #696969;
+}
+
+#missions table tr:hover {
+  background-color: #808080;
+}
+
+#missions table th {
+  background-color: #000080;
+  padding: 10px;
+}
+
+#missions table td {
+  border: 1px solid #ccc;
+}
+
+#missions table caption {
+  font-size: 1.0em;
+}
+
+#questions dl dt {
+  font-size: 1.2em;
+}
+
+#questions dt,
+dd {
+  display: block;
+  float: left;
+  margin-top: 20px;
+}
+
+#questions dt {
+  clear: both;
+}
+
+#coophon h6 {
+  color: #606F9E;
+  clear: both;
+  line-height: 0;
+}
