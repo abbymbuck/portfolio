@@ -1,0 +1,233 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+   .cf { zoom: 1; }
+        .cf:before, .cf:after { 
+          content: ""; display: table; 
+        }
+        .cf:after { clear: both; }
+img {
+  max-width:100%;
+  height:auto;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    height: 100%;
+    background-color:#F3F3F3;
+}
+
+.container{
+    width: 80vw;
+    margin:auto;
+    position: relative;
+    height: 100%;
+    text-align: justify;
+}
+
+.content{
+    height: 100%;
+}
+
+header.primary{
+    width:62.9166666667%; /*604px/960px*/
+    float: left;
+    margin:1%;
+    background: url("../img/segway-transparent-logo.png") no-repeat;
+}
+
+
+h1{
+    width:150px;
+    height: 150px;
+    float: left;
+    opacity: 0;
+    padding:0;
+}
+
+nav ul li:nth-child(4){
+    margin-right: 20px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 20px;
+    padding: 0;
+}
+
+nav ul li{
+    
+    margin: 2px; /*2px/ 292px*/
+    float: right;
+}
+
+nav a{
+    text-decoration: none;
+    background-color:#8EC3D9;
+    padding:5px;
+    color: #000;
+    
+}
+
+nav a:hover{
+    opacity: .75;
+}
+
+.info{
+    width:95.4166666667%; /* 916px/960 */
+    float: left;
+    margin: 0 1% 0 1%;
+    
+}
+.centaur{
+    width: 52.5%;
+    float: left;
+    margin:1%;
+}
+
+img{
+    width:448px;
+    float: left;
+    margin:1% 0 1% 0;
+}
+
+.first{
+    width:95.4166666667%; /* 916px/960 */
+    float: left;
+    margin: 0 0 1% 1%;
+    
+}
+
+.second{
+    width:95.4166666667%; /* 916px/960 */
+    float: left;
+    margin: 0 0 0 1%;
+    
+}
+
+.third{
+    width:95.4166666667%; /* 916px/960 */
+    float: left;
+    margin: 1% 0 0 1%;
+    
+}
+
+.fourth{
+    width:95.4166666667%; /* 916px/960 */
+    float: left;
+    margin: 1% 0 1% 1%;
+}
+
+h4{
+    border-left: 5px solid #8EC3D9;
+    padding-left: 2px;
+}
+
+.col-4{
+    width:95.4166666667%; /* 916px/960 */
+    float: left;
+    margin-left: 1%;
+    padding:10px;
+}
+
+.faq h2{
+    width:95.4166666667%; /* 916px/960 */
+    display: flex;
+    justify-content: left;
+    margin-left: 1%;
+}
+
+.about h2{
+    width:95.4166666667%; /* 916px/960 */
+    display: flex;
+    justify-content: left;
+    
+}
+
+.about{
+    width:95.4166666667%; /* 916px/960 */
+    float:left;
+    margin:1%;
+}
+.about a{
+    color:#8EC3D9;
+}
+
+dt{
+    text-transform: uppercase;
+}
+
+dd{
+    margin-left:0;
+    padding:5px;
+    color:#404040;
+}
+h5{
+    color:#404040;
+}
+footer{
+
+    width:95.4166666667%; /* 916px/960 */
+    float: left;
+    margin:1%;
+    background: #8EC3D9;
+    text-align: center;
+    height: 25px;
+}
+
+.sticky{
+    position: absolute;
+    bottom:0;
+
+}
+
+footer h6{
+    text-align: center;
+    display: inline;
+    margin: 5px;
+}
+
+footer h6 a{
+    color:#000;
+}
+
+.gallery img{
+    width:100%;
+    height: 80%;
+    padding-top: 40px;
+}
+.gallery {
+	width:31.25%;
+	float:right;
+	margin-right:48px;
+}
+
+#ContactForm{
+    width:46.6666666667%; /*448px/960px */
+    display: inline-block;
+    float: left;
+    margin:1%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+form label{
+    padding: 5px;
+}
+ .error {
+    color: red;
+}
+
+button:hover{
+    opacity: .5;
+}
+
+
+        
