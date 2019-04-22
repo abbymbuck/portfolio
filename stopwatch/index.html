@@ -1,0 +1,33 @@
+<h3>Number of Seconds on page:
+    <span id="counter">0</span></h3>
+
+    <input type="button" id="stop" value="Stop Timer">
+    <input type="button" id="reset" value="Reset Timer">
+    
+<script>
+    var timer;
+    var counter = 0;
+    
+    var updateCounter = function() {
+        counter++;
+        document.getElementById("counter").firstChild.nodeValue = counter;
+    };
+    
+    var stopTimer = function() {
+        clearInterval( timer );
+    };
+    
+    var resetTimer = function() {
+        clearInterval( timer );
+        counter=0;
+        document.getElementById("counter").firstChild.nodeValue = counter;
+    };
+    
+    
+    
+    window.onload = function() {
+        timer = setInterval ( updateCounter, 1000);
+        document.getElementById("stop").onclick = stopTimer;
+        document.getElementById("reset").onclick = resetTimer;
+    };
+</script>
