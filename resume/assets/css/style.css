@@ -1,0 +1,423 @@
+
+html {
+    color: #2B271B;
+    font-size: 1em;
+    line-height: 1.4;
+    box-sizing: border-box;
+}
+
+/*--Fluid Images--*/
+img{
+    max-width: 100%;
+    height: auto;
+}
+html{
+    background-color: #657363;
+}
+body{
+    font-family: 'Merriweather', serif;
+}
+/*--Dsign Time Styles--*/
+
+.container{
+    margin:0 auto;
+    background: #D6D5C1;
+    padding:5px;
+}
+#capstone-project{
+    margin:0 auto;
+    background: #D6D5C1;
+    padding: 20px;
+    max-width: 920px;
+}
+
+#website-examples{
+    margin:0 auto;
+    background: #D6D5C1;
+    padding: 20px;
+    max-width: 920px;
+}
+
+#cover-letter{
+    margin:0 auto;
+    background: #D6D5C1;
+    padding: 20px;
+    max-width: 920px;
+}
+
+#programming-examples{
+    margin:0 auto;
+    background: #D6D5C1;
+    padding: 20px;
+    max-width: 920px;
+}
+
+#soft-skill-examples{
+    margin:0 auto;
+    background: #D6D5C1;
+    padding: 20px;
+    max-width: 920px;
+}
+
+#experience{
+    margin:0 auto;
+    background: #D6D5C1;
+    padding: 20px;
+    max-width: 920px;
+}
+
+#database-examples{
+    margin:0 auto;
+    background: #D6D5C1;
+    padding: 20px;
+    max-width: 920px;
+}
+
+#writing-examples{
+    margin:0 auto;
+    background: #D6D5C1;
+    padding: 20px;
+    max-width: 920px;
+}
+
+#about{
+  padding-left: 20px;
+}
+.related-links{
+    display: flex;
+    justify-content: space-around;
+    padding:0;
+}
+
+.related-links li{
+    list-style-type: none;
+}
+
+.related-links li a{
+    text-decoration: none;
+}
+
+.related-links a{
+    border: 1px solid;
+    padding: 5px 10px;
+    color:#2B271B;
+    border-radius: 5px;
+}
+
+.related-links a:hover{
+    background: #657363;
+    opacity: 0.8;
+}
+.fab, .far{
+    padding-right:5px;
+}
+
+h1{
+    text-align: center;
+    padding:5px 15px;
+    margin:0;
+    font-size:2.5em;
+    color:#2B271B;
+}
+
+#about *[itemprop="image"]
+{
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about *[itemprop="description"]
+{
+    text-align: center;
+    padding:0 10px;
+}
+
+#copyright{
+    text-align: left;
+    display: grid;
+    rid-column-start: 1;
+    grid-column-end: span 3;
+    font-size: .75em;
+}
+
+header.container nav{
+ width: auto;
+}
+
+nav {
+    width:auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:10px 10px 0px 10px;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav a{
+border: 1px solid #2B271B;
+border-radius: 5px;   
+text-decoration: none;
+color:#2B271B;
+text-align: center;
+}
+
+nav a:hover{
+    background: #657363;
+    opacity: 0.8;
+}
+
+
+main{
+    color: #2B271B;
+}
+header.container{
+    grid-column-start: 1;
+    grid-column-end: span 3;
+   }
+
+dl{
+    display: grid;
+    grid-template-rows:auto;
+    grid-template-columns: 7em 1fr;
+}
+
+#about dt{
+    font-weight: 600;
+    border-bottom: 2px solid;
+    padding:5px 0;
+    grid-column:1;
+}
+
+#about dd{
+    border-bottom: 2px solid;
+    padding:5px 0;
+    grid-column:2;
+    margin:0;
+}
+
+#education [itemprop="name"] {
+  color: #8C4242;
+
+}
+
+.greeting{
+  color:#8C4242
+}
+
+#experience h3{
+    border-left: 2px solid #8C4242;
+    padding-left: 5px;
+    margin-top:40px;
+}
+
+
+span [itemprop="name"] {
+  color:#8C4242;
+}
+a{
+    color:#594E3F;
+}
+
+[itemprop="email"] {
+   text-decoration: none;
+}
+
+[itemprop="telephone"] {
+   text-decoration: none;
+}
+
+#skills p{
+   margin-bottom:0;
+}
+
+#first{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#second{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#progress{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+   grid-template-areas:
+   "first second"
+}
+
+#first{
+    grid-area: first;
+}
+#second{
+    grid-area: second;
+}
+progress::after { content: attr(value); }
+
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+   appearance: none;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: #D7CFC8;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-value {
+  background-image:
+	   -webkit-linear-gradient(-65deg, 
+	                           transparent 33%, rgba(63,48,42, .1) 33%, 
+	                           rgba(63,48,42, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top, 
+	                           rgba(63,48,42, .25), 
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(left, #2B271B, #594E3F);
+
+    border-radius: 5px; 
+  
+}
+
+abbr{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    font-size:2em;
+}
+
+#education h2{
+  padding-top:40px;
+}
+
+fieldset{
+  border: none;
+}
+
+
+@media screen and (min-width: 420px){
+
+
+img{
+  max-width:100%; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+
+#experience *[itemprop="worksFor"],
+#experience *[itemprop="location"],
+#experience *[itemprop="description"]
+{
+    padding-left: 10px;
+}
+
+main .container{
+  display: grid;
+  grid-gap: 1em;
+}
+main{
+  grid-template-areas:
+    "name"
+    "description"
+    "about"
+    "education"
+    "skills"
+    "links"
+}
+
+.name{
+    grid-area: name;
+}
+.related-links{
+    grid-area: links;
+}
+.page-title{
+  grid-area: title;
+}
+#about{
+  grid-area: about;
+}
+#skills{
+  grid-area: skills;
+
+}
+
+#education{
+  grid-area: education;
+}
+#description{
+    grid-area: description;
+}
+
+
+}
+
+@media screen and (min-width: 680px){
+   
+   main .container{
+       display: grid;
+       max-width: 920px;
+       padding:20px;
+       grid-template-columns: 1fr 1fr;
+}
+
+      .contact{
+        display: grid;
+       max-width: 920px;
+       padding:20px;
+       grid-template-columns: 1fr;
+      }
+
+main{
+       grid-template-areas:
+       "name name"
+       "description description"
+       "about about"
+       "skills skills"
+       "education education"
+       "links links"
+   }
+  
+}
+
+@media screen and (min-width: 921px){
+      .container{
+       display: grid;
+       max-width: 920px;
+       padding:20px;
+       grid-template-columns:1fr 1fr 1fr;
+}
+
+   .contact{
+        display: grid;
+       max-width: 920px;
+       padding:20px;
+       grid-template-columns: 1fr;
+      }
+
+main{
+       grid-template-areas:
+       "name name name"
+       "description about about"
+       "skills skills skills"
+       "education education education"
+       "links links links"
+   } 
+}
